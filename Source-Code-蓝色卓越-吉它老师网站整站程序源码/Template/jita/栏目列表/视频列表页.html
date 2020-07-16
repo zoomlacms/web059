@@ -1,0 +1,38 @@
+﻿{ZL.Source id="节点栏目信息数据源"/}
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>{SField sid="节点栏目信息数据源" FD="NodeName" page="0"/}_{$SiteName/}</title>
+<meta name="Keywords" content="{SField sid="节点栏目信息数据源" FD="Meta_Keywords" page="0"/}" />
+<meta name="description" content="{SField sid="节点栏目信息数据源" FD="Meta_Description" page="0"/}" />
+{ZL:Boot4()/}
+<link href="{$CssDir/}global.css?Version={ZL.Label id="前端样式版本号"/}" rel="stylesheet"/>
+</head>
+<body>
+{ZL.Label id="全站头部"/}
+<main class="col-12 col-md-12 col-xl-12" role="main" style="padding:0;">
+<div class="body">
+<div class="container mt-4">
+<div class="row">
+{ZL.Label id="输出视频列表_分页标签" NodeID="1" ShowNum="16" /}
+</div>
+</div>
+</div>
+</main>
+{ZL.Label id="全站底部"/}
+
+<style>
+body { background:#1E1432;}
+.body { border-top:1px #503C78 solid;}
+#pageDiv { color:#FFF;}
+</style>
+<script>
+$(".home_book em").mouseover(function(){
+    $(".home_book span").css("bottom","-2rem");
+}).mouseout(function(){
+    $(".home_book span").css("bottom","-3rem");    
+})
+</script>
+</body>
+</html>

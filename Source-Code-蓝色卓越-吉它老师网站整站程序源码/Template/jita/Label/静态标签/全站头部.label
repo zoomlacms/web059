@@ -1,0 +1,65 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>318</LabelID>
+    <LabelName>全站头部</LabelName>
+    <LabelType>1</LabelType>
+    <LabelCate>静态标签</LabelCate>
+    <LabelDesc />
+    <LabelParam />
+    <LabelTable />
+    <LabelField />
+    <LabelWhere />
+    <LabelOrder />
+    <LabelContent>&lt;div class="home_top"&gt;
+&lt;div class="container"&gt;
+&lt;nav class="navbar navbar-expand-lg navbar-light"&gt;
+&lt;button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation"&gt;
+&lt;span class="navbar-toggler-icon"&gt;&lt;/span&gt;
+&lt;/button&gt;
+&lt;div class="collapse navbar-collapse"  id="navbarTogglerDemo03"&gt;
+&lt;ul class="navbar-nav mr-auto home_top_nav"&gt;
+&lt;li class="nav-item"&gt;&lt;a class="nav-link" href="/"&gt;HOME&lt;br/&gt;&lt;span&gt;首页&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li class="nav-item"&gt;&lt;a class="nav-link" href="{ZL:GetNodeLinkUrl(1)/}"&gt;VIDEOS&lt;br/&gt;&lt;span&gt;视频&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li class="nav-item"&gt;&lt;a class="nav-link" href="{ZL:GetNodeLinkUrl(2)/}"&gt;PHOTOS&lt;br/&gt;&lt;span&gt;照片&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li class="nav-item"&gt;&lt;a class="nav-link" href="{ZL:GetNodeLinkUrl(3)/}"&gt;BIOGRAPHY&lt;br/&gt;&lt;span&gt;关于&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li class="nav-item"&gt;&lt;a class="nav-link" href="#"&gt;CONTACTS&lt;br/&gt;&lt;span&gt;联系&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/nav&gt;
+&lt;div class="home_logo"&gt;&lt;img src="{$CssDir/}images/home_logo.png" alt="{$SiteName/}" /&gt;&lt;/div&gt;
+&lt;div class="home_brands"&gt;   
+&lt;a href="#" class="lakewood"&gt;LAKEWOOD&lt;/a&gt;
+&lt;a href="#" class="lrbaggs"&gt;LRBAGGS&lt;/a&gt;
+&lt;a href="#" class="aer"&gt;AER&lt;/a&gt;
+&lt;a href="#" class="g7th"&gt;G7TH&lt;/a&gt;&lt;br/&gt;
+&lt;a href="#" class="mono"&gt;MONO&lt;/a&gt;
+&lt;a href="#" class="prolog"&gt;PROLOG&lt;/a&gt;
+&lt;a href="#" class="kane"&gt;KANE&lt;/a&gt;
+&lt;a href="#" class="cleartone"&gt;LCEARTONE&lt;/a&gt;&lt;br/&gt;
+&lt;a href="#" class="fredkelly"&gt;FREDKELLY&lt;/a&gt;
+&lt;a href="#" class="sunrise"&gt;SUNRISE&lt;/a&gt;
+&lt;a href="#" class="syairi"&gt;SYAIRI&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="home_book"&gt;
+&lt;em&gt;《陈亮指弹吉他系统教程》已发售，查看详情！&lt;/em&gt;
+&lt;span&gt;&lt;img src="{$CssDir/}images/home_book.png" alt="" /&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</LabelContent>
+    <LabelCount />
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue />
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+    <DataSourceType />
+    <ConnectString />
+    <ProceName />
+    <ProceParam />
+  </Table>
+</NewDataSet>

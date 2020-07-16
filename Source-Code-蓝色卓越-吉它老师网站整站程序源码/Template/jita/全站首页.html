@@ -1,0 +1,150 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="msapplication-TileColor" content="#1A0066"/>
+<meta name="msapplication-TileImage" content="/images/win8_symbol_140x140.png"/>
+<title>{$SiteName/}_首页</title>
+{$MetaKeywords/}
+{$MetaDescription/}
+{ZL:Boot4()/}
+<link href="{$CssDir/}global.css?Version={ZL.Label id="前端样式版本号"/}" rel="stylesheet"/>
+<script src="/js/scrolltopcontrol.js"></script>
+</head>
+<body>
+<div class="home_top">
+<div class="container">
+<nav class="navbar navbar-expand-lg navbar-light">
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse"  id="navbarTogglerDemo03">
+<ul class="navbar-nav mr-auto home_top_nav">
+<li class="nav-item active"><a class="nav-link" href="/">HOME<br/><span>首页</span></a></li>
+<li class="nav-item"><a class="nav-link" href="{ZL:GetNodeLinkUrl(1)/}">VIDEOS<br/><span>视频</span></a></li>
+<li class="nav-item"><a class="nav-link" href="{ZL:GetNodeLinkUrl(2)/}">PHOTOS<br/><span>照片</span></a></li>
+<li class="nav-item"><a class="nav-link" href="{ZL:GetNodeLinkUrl(3)/}">BIOGRAPHY<br/><span>关于</span></a></li>
+<li class="nav-item"><a class="nav-link" href="#">CONTACTS<br/><span>联系</span></a></li>
+</ul>
+</div>
+</nav>
+<div class="home_logo"><img src="{$CssDir/}images/home_logo.png" alt="{$SiteName/}" /></div>
+<div class="home_brands">   
+<a href="#" class="lakewood">LAKEWOOD</a>
+<a href="#" class="lrbaggs">LRBAGGS</a>
+<a href="#" class="aer">AER</a>
+<a href="#" class="g7th">G7TH</a><br/>
+<a href="#" class="mono">MONO</a>
+<a href="#" class="prolog">PROLOG</a>
+<a href="#" class="kane">KANE</a>
+<a href="#" class="cleartone">LCEARTONE</a><br/>
+<a href="#" class="fredkelly">FREDKELLY</a>
+<a href="#" class="sunrise">SUNRISE</a>
+<a href="#" class="syairi">SYAIRI</a>
+</div>
+<div class="home_book">
+<em>《陈亮指弹吉他系统教程》已发售，查看详情！</em>
+<span><img src="{$CssDir/}images/home_book.png" alt="" /></span>
+</div>
+</div>
+</div>
+<main class="col-12 col-md-12 col-xl-12" role="main" style="padding:0;">
+<div class="home_list_pic">
+<div class="container">
+<!-- Swiper -->
+<div class="swiper-container">
+<div class="swiper-wrapper">
+{ZL.Label id="首页输出视频列表" NodeID="1" ShowNum="4" /}
+</div>
+<!-- Add Arrows -->
+<div class="swiper-button-next btn-next"></div>
+<div class="swiper-button-prev btn-prev"></div>
+</div>
+<!-- Swiper JS -->
+</div>
+</div>
+<!--home_list_pic end!-->
+<div class="home_info ">
+<div class="container">
+<div class=" float-left play">
+<strong class="c_play">陈亮演出</strong>
+<a href="#">【限量珍藏】 印象中国 主题系列邮票吉他演奏家陈亮先生纪念邮折</a>
+</div>
+<div class="float-right contact">
+<a href="#">FACEBOOK</a>
+<a href="#">微博</a>
+<a href="#">淘宝</a>
+<a href="#">优酷</a>
+<a href="#">豆瓣</a>
+</div>
+</div>
+</div>
+<!--home_info end!-->
+<div class="home_study">
+<div class="container">
+<div class="teach float-left">
+<div class="s_teach float-left"><strong>学</strong></div>
+<h3>TEACHING</h3><p>教学</p>
+<div class="teach_cont">
+<P><strong>陈亮老师</strong>亲自授课，一起3个月12节课，每周一节课，3600一期。<br/>
+初级课程：分为基础知识课程，基本技巧，乐理和弦。<br/>
+中级课程：特殊技巧，简单编曲，双声部旋律BASS的应用，可以熟练视奏练习。<br/>
+高级课程：打板技巧，左右手分脑，编曲和弦编配，各种风格学习和掌握。</p>
+</div>
+</div>
+<div class="contact float-left">
+<div class="contact_l">
+<div class="s_contact float-left"><strong>联</strong></div>
+<h3>CONTACTS</h3><p>联系</p>
+<div class="teach_cont">
+<P>QQ:30627999 电话：13942014443<br/>
+邮箱:chl5624@qq.com<br/>
+地点辽宁省大连市沙河口区福佳新<br/>
+天地广场G座1-24-3</p>
+</div>
+</div>
+<div class="s_form">
+<form method="post" action="#">
+<div class="input float-right">
+<input id="Name" name="Name" type="text" value="昵称" placeholder="昵称">
+<input id="Email" name="Email" type="text" value="邮箱" placeholder="邮箱">
+<input id="Submit" type="submit" value="发送"></div>
+<textarea name="Comment" id="Comment">您的留言内容...</textarea>
+</form>
+</div>
+</div>
+</div>
+</div>
+<!--home_study end!-->
+</main>
+<div class="home_footer clearfix">
+<div class="container">
+<div class="footer_l">
+<p>{$Copyright/}</p>
+</div>
+<div class="links float-right"><a href="">友情链接：逐浪软件</a></div>
+</div>
+</div>
+<link rel="stylesheet" href="dist/css/swiper.min.css">
+<script src="dist/js/swiper.min.js"></script>
+<script>
+$(".home_book em").mouseover(function(){
+    $(".home_book span").css("bottom","-2rem");
+}).mouseout(function(){
+    $(".home_book span").css("bottom","-3rem");    
+})
+
+ var swiper = new Swiper('.swiper-container', {
+    pagination: '.swiper-pagination',
+    nextButton: '.swiper-button-next',
+    prevButton: '.swiper-button-prev',
+	slidesPerView: 4,
+	paginationClickable: true,
+	spaceBetween: 30,
+    autoplayDisableOnInteraction: false,
+    keyboardControl: true,
+    loop: true
+});
+</script>
+</body>
+</html>
